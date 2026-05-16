@@ -1,19 +1,23 @@
-[
-    {
-        "device_id": "device123",
-        "key": "key12345",
-        "expirydate": "31-12-2025",
-        "Allowoffline": true
+{
+  "system": {
+    "maintenance": false,
+    "maintenance_msg": "Server is updating, please wait...",
+    "latest_version": "1.0",
+    "update_link": "https://t.me/yourchannel",
+    "whats_new": "Added new bypass features!"
+  },
+  "keys": {
+    "WINNEX-VIP1": {
+      "duration_hours": 720,
+      "status": "active",
+      "device_id": "",
+      "ban_reason": ""
     },
-    {
-        "device_id": "device456",
-        "key": "key67890",
-        "expirydate": "15-06-2025",
-        "Allowoffline": false
-    },
-    {
-        "device_id": "850d9448042922eb",
-        "key": "Lifetime1",
-        "expirydate": "16-06-2025",
-        "Allowoffline": false
+    "WINNEX-TEST": {
+      "duration_hours": 24,
+      "status": "banned",
+      "device_id": "850d9448042922eb",
+      "ban_reason": "Using modded APK"
     }
+  }
+}
